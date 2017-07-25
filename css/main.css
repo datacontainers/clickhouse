@@ -142,14 +142,14 @@ section {
 
 #home-slider .caption {
   position: absolute;
-  top: 50%;
+  top: 60%;
   margin-top: -104px;
   left: 0;
   right: 0;
   text-align: center;
   text-transform: uppercase;
   z-index: 15;
-  font-size: 18px;
+  font-size: px;
   font-weight: 300;
   color: #fff;
 }
@@ -160,6 +160,8 @@ section {
   font-weight: 700;
   margin-bottom: 30px;
 }
+
+
 
 .caption .btn-start {
   color: #fff;
