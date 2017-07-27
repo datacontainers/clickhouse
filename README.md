@@ -8,4 +8,7 @@ This repo has three working branches
 
 This is the cloudworks branch Published at http://clickdemo.memcloud.works/
 
-
+Contact:
+	Altinity: 
+	Kodiak Data:	support@kodiakdata.com
+	
