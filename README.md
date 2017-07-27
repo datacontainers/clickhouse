@@ -1,9 +1,9 @@
-## clickhouse docs repository
-#  this repo has three working branches
-#         master
-#         docs
-#         gh-pages
-#
+# clickhouse docs repository
+##  this repo has three working branches
+##        master
+##         docs
+##         gh-pages
+##
  This is the docs branch
  Intended for documentations, staic pages, briefs, collaterals etc
 
