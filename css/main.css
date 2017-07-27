@@ -142,7 +142,7 @@ section {
 
 #home-slider .caption {
   position: absolute;
-  top: 60%;
+  top: 50%;
   margin-top: -104px;
   left: 0;
   right: 0;
@@ -198,7 +198,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0, 0.8);
+  background: rgba(0,0,0, 0.5);
 }
 
 .carousel-fade .carousel-inner .active {
