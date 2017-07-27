@@ -1,6 +1,6 @@
 # clickhouse docs repository
 ##  this repo has three working branches
-         master    - This has the YAML, folders and XML files for the Altinity/Kodiak Cloudworks Portal clickhouse.memcloud.works
+         master    - This has the YAML and XML files for the Altinity/Kodiak portal clickhouse.memcloud.works
          docs      - Documents, collateral, some static web-content
          gh-pages  - This contents the website that's published to clickdemo.memcloud.works
 
