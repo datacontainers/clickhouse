@@ -3,6 +3,8 @@
 #
 #   Applies to both memcloud and storagecloud
 #
+#   this file is used if no existing service repos are found
+#
 #
 #
 version:    0.1.0

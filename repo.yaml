@@ -1,5 +1,5 @@
 version:      0.5.2
-updated:    6.29.2017
+updated:    7.26.2017
 
 # Memcloud services 
 cloud-services  : 
@@ -40,14 +40,7 @@ cloud-services  :
   - Redhat-Openshift : [ standard, mini]
   - bunch-of-nodes : [ default, multinode ]
        
-  storage:
-  - ceph  :   [ production-ceph-core]
-  - gluster : [standalone, gluster-docker-swarm-bootstrap ]
-  - jbod  :   [standard]
-  - vNAS  :   [standard, hybrid]
-  - gpfs  :   [standard ]
-  - lustre  :   [standard ]
-  - minio : [standard ]
+
    
 # StorageCloud services may be similar or different
 storage-services :
@@ -68,9 +61,7 @@ storage-services :
   - Memcache  : [ standard-fixed, autoscaling ]
   - Couchbase : [ standard ]
   
-  data-lakes: 
-  - hdfs-single-tenant-data-lake  : [ all-flash, hybrid, tiered ] 
-  - hdfs-multi-tenant-data-lake   : [ all-flash, hybrid, tiered ] 
+
   
   
 
