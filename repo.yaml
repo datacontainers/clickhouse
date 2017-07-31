@@ -7,10 +7,7 @@ cloud-services  :
   - hdfs    : [standard]
   - impala  : [standard]
   
-  replicator-etl:
-  - tungsten-preconfigured :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs]
-  - tungsten-custom :     [configurable] 
-  
+
   big-data.Hortonworks:  
   - HDP-Hortonworks : [ hdp-standard ]
    
@@ -26,20 +23,9 @@ cloud-services  :
   - elasticsearch  : [ standard ] 
   - logstash        : [ data-only ]
   - elasticsearch-logstash-kibana : [standard ]
-  
-  
-  big-data-multi-stack :
-  - Apache-SMACK  : [standard]
-  - elasticsearch-logstash-kibana   :  [standard]
 
-  cloud :        
-  - DCOS            : [ enterprise-edition, community-edition ] 
-  - Docker-swarm    : [ swarm-cluster ]
-  - host-cluster   : [ generic-cluster ]
-  - Kubernetes      : [ miniKube, standard, extended ]
-  - Redhat-Openshift : [ standard, mini]
-  - bunch-of-nodes : [ default, multinode ]
-       
+
+
 
    
 # StorageCloud services may be similar or different
