@@ -101,14 +101,9 @@ testdrives:
 demos: 
   databases:
   - clickhouse: [nyc-taxi-rides-dataset, top-2000-dataset, ontime-arrival-dataset]
-  - kx :        [nyc-taxi-rides]
   
   storage:
-  - menlostor : [standard]
-  - lamdafire-proxy:  [standard, +tiering ] 
-  
-  replicator-etl:
-  - tungsten :  [mysql-mysql, mysql-hadoop, mysql-clickhouse, kafka-hdfs]
+  - kodiak-lightning-proxy:  [standard, +tiering ] 
   
 benchmarks: 
   databases:
