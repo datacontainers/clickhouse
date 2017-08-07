@@ -22,33 +22,7 @@ cloud-services  :
   big-data-elk :
   - elasticsearch  : [ standard ] 
   - logstash        : [ data-only ]
-  - elasticsearch-logstash-kibana : [standard ]
-
-
-
-
-   
-# StorageCloud services may be similar or different
-storage-services :
-  storage:
-  - jbod  :   [standard]
-  - vNAS  :   [standard, hybrid]
-  
-  clusters:
-  - ceph  :   [rht-test-drive, rht-certification, production-ceph-core]
-  - gluster : [standalone, gluster-docker-swarm-bootstrap ]
-  - gpfs  :   [standard ]
-  - lustre  :   [standard ] 
-  
-  key-value-stores: 
-  - Redis     : [ standard, cluster ]
-  - Cassandra : [ standard-3-node ]
-  - Riak      : [ standard ]
-  - Memcache  : [ standard-fixed, autoscaling ]
-  - Couchbase : [ standard ]
-  
-
-  
+  - elasticsearch-logstash-kibana : [standard ] 
   
 
 # Database services may be similar or different
@@ -83,11 +57,9 @@ misc:
   - ELK   :  [standard]
  
 # Placeholder for private repo 
-myrepo :
-  my-multi-stack-services :
-  - login-to-view  : [user-services-list]
-  my-private-services :
-  - login-to-view  : [user-services-list]
+#myrepo :
+#  my-multi-stack-services :
+#  - login-to-view  : [user-services-list]
 
 testdrives:
   storage:
