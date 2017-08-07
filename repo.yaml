@@ -49,13 +49,7 @@ database-services :
   - Drill   : [standard]
   - Impala  : [standard]
   - Spark   : [standard]
-  
-  
-misc:
-  multi-stack-projects :
-  - SMACK  : [standard]
-  - ELK   :  [standard]
- 
+   
 # Placeholder for private repo 
 #myrepo :
 #  my-multi-stack-services :
