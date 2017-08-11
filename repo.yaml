@@ -1,55 +1,9 @@
 version:      0.5.3
 updated:    8.10.2017
 
-# Memcloud services 
-cloud-services  : 
-  big-data.Cloudera:  
-  - hdfs    : [standard]
-  - impala  : [standard]
-  
-
-  big-data.Hortonworks:  
-  - HDP-Hortonworks : [ hdp-standard ]
-   
-  big-data.MapR:  
-  - MapR-community-edition : [ standard ]
-  
-  big-data.Apache :
-  - Apache-SMACK  : [ standard, extended ]
-  - hdfs-big-data : [ data-only, +spark, +druid ]
-  - kafka         : [ standard ]
-  
-  big-data-elk :
-  - elasticsearch  : [ standard ] 
-  - logstash        : [ data-only ]
-  - elasticsearch-logstash-kibana : [standard ] 
-  
-
-# Database services may be similar or different
-database-services :
-  sql-databases:
-  - MySQL                 : [ default-single-node, 3-node-cluster ]
-   
-  mpp-columnar-databases:
-  - Clickhouse      : [ test-drive, standard ]
-
-  nosql-databases:
-  - MongoDB               : [ standard ]
-  - Cassandra             : [ multi-node]
-
-  analytics:
-  - Druid   : [standard]
-  - Drill   : [standard]
-  - Spark   : [standard]
-   
-# Placeholder for private repo 
-#myrepo :
-#  my-multi-stack-services :
-#  - login-to-view  : [user-services-list]
-
 testdrives:
   databases: 
-  - clickhouse :      [ standard-clickhouse-testdrive, large-clickhouse-testdrive, custom-clickhouse-testdrive ]
+  - clickhouse: [ standard-clickhouse-testdrive, large-clickhouse-testdrive, custom-clickhouse-testdrive ]
   
 demos: 
   databases:
