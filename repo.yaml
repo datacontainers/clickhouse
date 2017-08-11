@@ -28,17 +28,10 @@ cloud-services  :
 # Database services may be similar or different
 database-services :
   sql-databases:
-  - Oracle    : [standard, RAC ]
-  - SQL-server-2017-linux : [ standard ]
   - MySQL                 : [ default-single-node, 3-node-cluster ]
-  - Postgress             : [ single-node ]
-  - MariaDB         : [ default-engine, +columnstore ]
-  - Memsql          : [ default ]
- 
+   
   mpp-columnar-databases:
-  - MariaDB         : [ +columnstore ]
   - Clickhouse      : [ test-drive, standard ]
-  - Vertica         : [ test-drive, standard ]
 
   nosql-databases:
   - MongoDB               : [ standard ]
@@ -47,7 +40,6 @@ database-services :
   analytics:
   - Druid   : [standard]
   - Drill   : [standard]
-  - Impala  : [standard]
   - Spark   : [standard]
    
 # Placeholder for private repo 
@@ -56,11 +48,6 @@ database-services :
 #  - login-to-view  : [user-services-list]
 
 testdrives:
-  storage:
-  - ceph :            [ rht-standard, rht-extended-testdrive ]
-  - hdfs-tiering:     [ standard ]
-  - lamdafire-proxy:  [standard, +tiering ]
-  
   databases: 
   - clickhouse :      [ standard-clickhouse-testdrive, large-clickhouse-testdrive, custom-clickhouse-testdrive ]
   
