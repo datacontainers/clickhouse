@@ -1,5 +1,5 @@
-version:      0.5.2
-updated:    7.26.2017
+version:      0.5.3
+updated:    8.10.2017
 
 # Memcloud services 
 cloud-services  : 
@@ -67,13 +67,15 @@ testdrives:
 demos: 
   databases:
   - clickhouse: [standard-clickhouse-demo]
-  
-  storage:
-  - kodiak-lightning-proxy:  [standard, +tiering ] 
-  
-benchmarks: 
-  databases:
-  - clickhouse: [standard, large, custom]
+ 
+# not showing demos other than clickhouse
+# storage:
+#  - kodiak-lightning-proxy:  [standard, +tiering ] 
+#
+# Remove comments below to show benchmark options in Cloudworks menu
+#benchmarks: 
+#  databases:
+#  - clickhouse: [standard, large, custom]
 
   
  ## -- end of repo.yaml
