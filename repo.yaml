@@ -6,7 +6,7 @@ testdrives:
   - clickhouse: [ standard-clickhouse-testdrive, large-clickhouse-testdrive, custom-clickhouse-testdrive ]
   
 demos: 
-  databases:
+  database-demos:
   - clickhouse: [standard-clickhouse-demo]
  
 # not showing demos other than clickhouse
