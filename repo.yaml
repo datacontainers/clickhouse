@@ -2,8 +2,6 @@ version:      0.5.3
 updated:    8.10.2017
 
 testdrives:
-  databases: 
-  - clickhouse: [ comingsoon ]
   
 demos: 
   database-demos:
