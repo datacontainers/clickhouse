@@ -3,7 +3,7 @@ updated:    8.10.2017
 
 testdrives:
   databases: 
-  - clickhouse: [ standard-clickhouse-testdrive ]
+  - clickhouse: [ comingsoon ]
   
 demos: 
   database-demos:
