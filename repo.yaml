@@ -3,7 +3,7 @@ updated:    8.10.2017
 
 testdrives:
   databases: 
-  - clickhouse: [ standard-clickhouse-testdrive, large-clickhouse-testdrive, custom-clickhouse-testdrive ]
+  - clickhouse: [ standard-clickhouse-testdrive ]
   
 demos: 
   database-demos:
