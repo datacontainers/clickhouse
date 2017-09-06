@@ -161,7 +161,12 @@ section {
   margin-bottom: 30px;
 }
 
-
+#home-slider .caption h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 220;
+  margin-bottom: 9px;
+}
 
 .caption .btn-start {
   color: #fff;
