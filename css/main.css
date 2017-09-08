@@ -140,6 +140,48 @@ section {
   
 }
 
+#home-slider .caption_events {
+  position: absolute;
+  top: 60%;
+  margin-top: -400px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 15;
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+}
+
+#home-slider .caption_events h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#home-slider .caption_events h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 220;
+  margin-bottom: 9px;
+}
+
+.caption_events .btn-start {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding:14px 40px;
+  border: 1px solid #6e6d6c;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.caption_events .btn-start:hover {
+  background-color: #017fb5;
+  color: #fff
+}
+
 #home-slider .caption {
   position: absolute;
   top: 60%;
@@ -161,13 +203,6 @@ section {
   margin-bottom: 30px;
 }
 
-#home-slider .caption h3 {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 220;
-  margin-bottom: 9px;
-}
-
 .caption .btn-start {
   color: #fff;
   font-size: 14px;
@@ -181,7 +216,6 @@ section {
 .caption .btn-start:hover {
   color: #fff
 }
-
 
 #outercarousel {
  background: #000;
