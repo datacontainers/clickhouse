@@ -46,8 +46,8 @@
             <li data-target="#home-slider" data-slide-to="0" class="active"></li>
             <li data-target="#home-slider" data-slide-to="1"></li>
             <li data-target="#home-slider" data-slide-to="2"></li>
-            <li data-target="#home-slider" data-slide-to="3"></li>
-            <li data-target="#home-slider" data-slide-to="4"></li>
+<!--         <li data-target="#home-slider" data-slide-to="3"></li>
+            <li data-target="#home-slider" data-slide-to="4"></li>-->
         </ol>
 
       <div id="outercarousel" class="carousel-inner">
@@ -56,15 +56,15 @@
           <div class="caption">
             <h1 class="animated fadeInLeftBig">Launch analytics to <span>a new level</span> with Clickhouse</h1>
             <p class="animated fadeInRightBig">Functional Demos&nbsp; &nbsp;|&nbsp; &nbsp;Hands-on Private Demos&nbsp; &nbsp;|&nbsp; &nbsp;POC&nbsp; &nbsp;|&nbsp; &nbsp;Benchmarks&nbsp; &nbsp;|&nbsp; &nbsp;dataset demos</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'services'});">Learn More</a>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#product" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'product'});">Learn More</a>
           </div>
         </div>
 
-        <div class="item" >
+        <div class="item"  style="background-image: url(images/slider/joey-kyber-132520.jpg)">
           <div class="caption">
             <h1 class="animated fadeInLeftBig">step-by-step <span>Evaluation</span> at <span>No charge!</span></h1>
             <p class="animated fadeInRightBig">Learn (here)&nbsp; &nbsp;|&nbsp; &nbsp;Shared demo (self-service)&nbsp; &nbsp;|&nbsp; &nbsp;Private demo (with sign-up)</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'services'});">See services</a>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#product" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'product'});">See services</a>
           </div>
         </div>
 
@@ -72,11 +72,11 @@
           <div class="caption">
             <h1 class="animated fadeInLeftBig">Rule the <span>data-jungle</span> with cLICKHOUSE</h1>
             <p class="animated fadeInRightBig">Five minute deployment on Kodiak Data Clouds&nbsp; &nbsp;|&nbsp; &nbsp;No scripting &nbsp; &nbsp;|&nbsp; &nbsp;Any stack</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'services'});">Explore</a>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#product" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'product'});">Explore</a>
           </div>
         </div>
 
-        <div class="item" style="background-image: url(images/slider/nasa-63029.jpg); background-size: cover;">
+<!--         <div class="item" style="background-image: url(images/slider/nasa-63029.jpg); background-size: cover;">
          <div class="caption_events">
             <h1 class="animated fadeInLeftBig">UPCOMING <font color=#017fb5>USA</font> EVENTS</h1>
             <p><h3 class="animated fadeInRightBig"><b>“How to build analytics for 100bn logs a month with Clickhouse”</b></br>
@@ -105,7 +105,7 @@
             <a data-scroll class="btn btn-start animated fadeInUpBig" href="https://events.yandex.com/events/meetings/05-10-2017/" onClick="gtag('event', 'link_click', {'event_category': 'outbound', 'event_label': 'events.yandex.com/events/meetings/05-10-2017/'});">REGISTER AT</a></p>
           </div>
        </div>
-
+-->
       </div>
       <a class="left-control" href="#home-slider" data-slide="prev" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'home-slider_prev'});"><i class="fa fa-angle-left"></i></a>
       <a class="right-control" href="#home-slider" data-slide="next" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'home-slider_next'});"><i class="fa fa-angle-right"></i></a>
@@ -144,15 +144,96 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="scroll active"><a href="#home" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'home'});">Home</a></li>
+<!--            <li class="scroll active"><a href="#home" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'home'});">Home</a></li>
+            <li class="scroll"><a href="#services" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'services'});">Product Details</a></li>
             <li class="scroll"><a href="#services" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'services'});">Product Details</a></li>
             <li class="scroll"><a href="#twitter" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'twitter'});">More Info</a></li>
+-->
+            <li class="scroll active"><a href="#home" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'home'});">Home</a></li>
+            <li class="scroll"><a href="#product" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'product'});">Product</a></li>
+<!--             <li class="scroll"><a href="#demo" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'demo'});">Demo</a></li>
+-->
+            <li class="scroll"><a href="#features" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'features'});">Features</a></li>
+            <li class="scroll"><a href="#twitter" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'twitter'});">More Info</a></li>
+            <li class="scroll"><a href="#contactForm" onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'contactForm'});">Contact Us</a></li>
+            <li><a href="http://clickhouse.memcloud.works/" target="_blank" >DEMO</a></li>
           </ul>
         </div>
       </div>
-    </div><!--/#main-nav-->
+    </div>
+  <!--/#main-nav-->
   </header><!--/#home-->
-  <section id="services">
+
+  <section id="product"> <!--/product-->
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-10 col-sm-offset-1">
+            <h1><b>CLICKHOUSE-ON-MEMCLOUD</b></h1>
+            <h2>At the intersection of two powerful cutting-edge technologies</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center our-services">
+        <div class="row">
+           <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+              <img class="img-responsive " src="images/KodiakLogo_memcloud.png" alt="MemCloud"
+                  style=" display:inline; width: 200px; height:auto;
+                   margin-left:auto; margin-right:10px; margin-top:-10px; padding: 5px 5px 5px 5px;">
+            <div class="service-info">
+              <h2>MemCloud</h2>
+              <p align=left>
+                Kodiak MemCloud™ is the highest performance hosted cloud service on the planet and amazingly gets your clusters running in minutes.
+                <br>Data Scientists can provision their own high performance clusters quickly and cost effectively without waiting for IT.
+                IT can service more users, avoiding the cost of cluster sprawl. Dev/Ops can deploy and manage many clusters across Dev, Test and Ops.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+              <img class="img-responsive " src="images/AltinityLogo_square.png" alt="ClickHouse by Altinity"
+                  style=" display:inline; width: 200px; height:auto;
+                   margin-left:auto; margin-right:10px; margin-top:-10px; padding: 5px 5px 5px 5px;">
+            <div class="service-info">
+              <h2>ClickHouse by Altinity</h2>
+              <p align=left>
+              Altinity is the leading service provider for ClickHouse - an open-source column-store Massively Parallel Processing  (MPP) analytic DBMS - the cutting edge technology for managing and analyzing extremely large volumes of data.
+              <br><br>ClickHouse has been designed for the speed and scalability. It is extremely fast in loading and querying huge amounts of data,  and linearly scalable both vertically and horizontally.
+             </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!--/#product-->
+
+  <section id="demo"> <!-- Try Demo-->
+<!--     <div class="container container-blue wow fadeInUp text-center" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+           <a href="http://clickhouse.memcloud.works" onClick="gtag('event', 'link_click', {'event_category': 'outbound', 'event_label': 'clickhouse.memcloud.works'});">
+            <h1 class="text-white"><b>ACCESS DEMO</b></h1>
+
+            <h2 class="text-white"><b>Ready to get started?</b> Access the online demo for Clickhouse on Kodiak MemCloud&nbsp;<b>NOW!</b></h2>
+            </a>
+-->
+<div class="container wow fadeInUp text-center" data-wow-duration="1000ms" data-wow-delay="300ms">
+  <hr>
+  <h2 class="text-blue"><b>Ready to get started?</b> Access the online demo for Clickhouse on Kodiak MemCloud&nbsp;<b>NOW!</b></h2>
+<div class="load-more wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: fadeInUp;">
+    <a href="http://clickhouse.memcloud.works/" class="btn-loadmore btn-bigbutton" target="_blank">ACCESS DEMO</a>
+<!--    <a href="./demo.html" class="btn-loadmore btn-bigbutton" target="_blank">ACCESS DEMO</a>-->
+</div>
+<br>
+<hr>
+</div><!-- /container wow fadeInUp-->
+
+  </section><!-- /Try Demo-->
+
+
+  <section id="features">
     <div class="container">
       <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="row">
@@ -160,7 +241,7 @@
             <h2>LEARN, TEST DRIVE, POC, SANDBOX & DEPLOY</h2>
               <h2>Simple, <a href="http://www.memcloud.works/benchmark-results.html" target="_blank" onClick="gtag('event', 'link_click', {'event_category': 'outbound', 'event_label': 'www.memcloud.works/benchmark-results.html'});">Fast,</a> Affordable and Purpose-Built for Big Data
 
-      </div>
+          </div>
         </div>
       </div>
       <div class="text-center our-services">
@@ -172,37 +253,48 @@
               <i class="fa fa-handshake-o"></i>
             </div>
             <div class="service-info">
-              <h3>Awesome Support</h3>
-              <p>Use a pre-configured version from our pubilc repo. Or use your own repository. Share your configuration with communities if you want.</p>
+              <h2>Professional Support</h2>
+              <p>We provide different support plans to make ClickHouse operations easy and flawless. That includes Level 3 support and 24x7 Level 1 support.</p>
             </div>
           </div>
 
 
           <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
             <div class="service-icon">
-              <i class="fa fa-github"></i>
+              <i class="fa fa-cloud"></i>
             </div>
             <div class="service-info">
-              <h3>Github Integration</h3>
-              <p>Our central and user repositories are on Github. You can customize the app-store inventory on Github just the way you want.</p>
+              <h2>Private Cloud</h2>
+              <p>Our data-optimized private clouds deliver on the promise of the public cloud’s agility, with even greater simplicity and flexibility combined with much lower costs.</p>
             </div>
           </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
-            <a href="http://clickhouse.memcloud.works" onClick="gtag('event', 'link_click', {'event_category': 'outbound', 'event_label': 'clickhouse.memcloud.works'});">
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
             <div class="service-icon">
-              <i class="fa fa-code"></i>
+              <i class="fa fa-dollar"></i>
             </div>
-
-                        <div class="service-info"><a href="http://clickhouse.memcloud.works" onClick="gtag('event', 'link_click', {'event_category': 'outbound', 'event_label': 'clickhouse.memcloud.works'});">
-              <h3>Access Demo</h3>
-              <p>Access the online demo for Clickhouse on Kodiak MemCloud&nbsp;<b>NOW!</b></p>
+            <div class="service-info">
+              <h2>Cost</h2>
+              <p>Our pricing is simple!  High speed MemCloud plans start at $100 per week. These are simple, all-inclusive tiers, so you know your costs up front. </p>
             </div>
-           </a>
           </div>
+
+
         </div>
       </div>
     </div>
   </section><!--/#services-->
+
+  <section id="contactUs"> <!-- Contact Us-->
+     <div class="container wow fadeInUp text-center" data-wow-duration="1000ms" data-wow-delay="300ms">
+<hr>
+       <h2 class="text-blue">Have questions? Looking for <b>Private Demo</b> or <b>POC</b>? Contact us today</h2>
+       <div class="load-more wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: fadeInUp;">
+           <a href="#contactForm" class="btn-loadmore btn-bigbutton"  onClick="gtag('event', 'link_click', {'event_category': 'inbound', 'event_label': 'contactForm'});">Contact Us</a>
+       </div><!-- /load-more-->
+<br>
+<hr>
+      </div><!-- /container wow fadeInUp-->
+  </section><!-- /Contact Us-->
 
   <section id="twitter" class="parallax">
    <div class="container">
@@ -250,8 +342,58 @@
         </div>
         </div>
  </div> <!-- container -->
+
  </section><!--/#twitter-->
 
+<!-- contactForm -->
+<section id="contactForm" class="parallax">
+<div id="contact-us" class="parallax">
+  <div class="container heading">
+    <div class=" wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="row">
+        <div class="text-center col-sm-10 col-sm-offset-1">
+
+<!--        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+-->
+            <h2>Contact Us</h2>
+            <p>Looking for more information? Interested in private Demo or POC? Ready to get evaluation for your project?
+              <br>Please email us and we'll get back to quickly.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center our-services">
+        <div class="row">
+           <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-info">
+              <h3>Kodiak Data</h3>
+              <ul class="address">
+                <li><i class="fa fa-phone"></i> <span> Phone:</span> +1 650 383 8374  </li>
+                <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:info@kodiakdata.com"> info@kodiakdata.com</a></li>
+                <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="http://www.kodiakdata.co/" target="_blank">www.kodiakdata.co</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="service-info">
+              <h3>Altinity Ltd.</h3>
+              <ul class="address">
+                <li><i class="fa fa-phone"></i> <span> Phone:</span> +1 628 400 4455 (USA) <br>+44 (0) 2036 087444 (UK)   </li>
+                <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:info@altinity.com"> info@altinity.com</a></li>
+                <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="https://www.altinity.com" target="_blank">www.altinity.com</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+ </section>
+<!-- contactForm -->
 
   <footer id="footer">
     <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
@@ -272,10 +414,10 @@
           <div class="col-sm-4">
             <p>&copy; <a href="http://www.kodiakdata.com/" onClick="gtag('event', 'link_click', {'event_category': 'outbound', 'event_label': 'www.kodiakdata.com'});">2017 Kodiak Data, Inc.&nbsp;&nbsp;Corporate website</a></p>
           </div>
-           <div class="col-sm-4 pull-right">
+  <!--         <div class="col-sm-4 pull-right">
                         <span>Image Credits :
                                 </span>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
